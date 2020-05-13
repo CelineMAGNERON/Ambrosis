@@ -1,0 +1,177 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" content="Ambrosis, votre bibliothèque partout avec vous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ambrosis">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container-fluid row">
+        <div id="logo" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="img/logo_dark_ambrosis.png" width="240px">
+        </div>
+        <div id="login" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <a href="login" title="login">S'identifier</a>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <div class="submitcard">
+            <div class="trypresentation row">
+                <p>Romans, nouvelles, tapuscrits et bien plus en illimité.</p>
+            </div>
+            <div class="trytext row">
+                <p>Où que vous soyez. Annulez à tout moment.</p>
+            </div>
+            <div class="trymail row">
+                <form method="post">
+                    <input type="email" name="email" id="email" placeholder="Votre adresse email" required>
+                    <button class="submit" type="submit" name="submit" id="submit">Abonnez-vous</button>
+                </form>
+            </div>
+            <span class="trylegend row">Prêt à essayer Ambrosis? Saisissez votre adresse e-mail pour créer votre compte ou y accéder.</span>
+        </div>
+
+
+        <div class="readcard">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <p>Accedez à votre bibliothèque depuis votre smartphone</p>
+                    </div>
+                    <div>
+                        <p>Ambrosis est accessible depuis votre Smart TV, tablette, Chromecast, et bien plus.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VNdRrOo5h-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="downloadcard">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VNdRrOo5h-E?start=59" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <p>Téléchargez vos oeuvres préférées pour les lire hors connexion.</p>
+                        <p>Enregistrez votre bibliothèque et ayez toujours quelque chose à lire avec vous.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="everywherecard">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <p>Où que vous soyez.</p>
+                    </div>
+                    <div>
+                        <p>Votre bilbiothèque vous suit partout, accessible en accès illimité sur smartphone, tablette et ordinateur, tout compris.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CscMMny9Mfo?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="questionscard">
+            <div class="faq row">
+                <h3>Foire aux questions</h3>
+            </div>
+            <div class="row" id="accordeon">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#item1" class="card-link" data-toggle="collapse" data-parent="#accordeon">Ambrosis, qu'est-ce que c'est ?</a>
+                    </div>
+                    <div class="collapse" id="item1">
+                        <div class="card-body">
+                            <p class="card-text">Ambrosis est une bibliothèque de lecture en streaming qui regroupe plus de 100 000 livres et tapuscrits en tout genre et disponibles en illimité.</p>
+                        </div>
+                    </div>
+                    <div class="card-header">
+                        <a href="#item2" class="card-link" data-toggle="collapse" data-parent="#accordeon">Combien coûte un abonnement ?</a>
+                    </div>
+                    <div class="collapse" id="item2">
+                        <div class="card-body">
+                            <p class="card-text">Ce plugin permet de créer des fenêtres modales élégantes avec une grande simplicité.</p>
+                        </div>
+                    </div>
+                    <div class="card-header">
+                        <a href="#item3" class="card-link" data-toggle="collapse" data-parent="#accordeon">Où puis-je consulter Ambrosis ?</a>
+                    </div>
+                    <div class="collapse" id="item3">
+                        <div class="card-body">
+                            <p class="card-text">Consultez votre bibliothèque où et quand vous voulez. Depuis votre ordinateur ou tout appareil connecté à Internet avec l'application Ambrosis, comme les Smart TV, smartphones et tablettes. Vous pouvez aussi télécharger vos
+                                oeuvres préférées avec l'application Android ou Windows 10.</p>
+                        </div>
+                    </div>
+                    <div class="card-header">
+                        <a href="#item4" class="card-link" data-toggle="collapse" data-parent="#accordeon">Comment puis-je annuler mon abonnemen ?</a>
+                    </div>
+                    <div class="collapse" id="item4">
+                        <div class="card-body">
+                            <p class="card-text">Ambrosis offre une grande souplesse. Pas de contrat compliqué. Sans engagement. Deux clics suffisent pour annuler votre compte en ligne. Pas de frais d'annulation : ouvrez ou fermez votre compte à tout moment.</p>
+                        </div>
+                    </div>
+                    <div class="card-header">
+                        <a href="#item5" class="card-link" data-toggle="collapse" data-parent="#accordeon">Que puis-je lire sur Ambrosis ?</a>
+                    </div>
+                    <div class="collapse" id="item5">
+                        <div class="card-body">
+                            <p class="card-text">Ambrosis propose un vaste catalogue comprenant notamment des romans, des nouvelles et des tapuscrits selectionnés par les éditeurs de l'application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trymail row">
+                <form method="post">
+                    <input type="email" name="email" id="email" placeholder="Votre adresse email" required>
+                    <button class="submit" type="submit" name="submit" id="submit">Abonnez-vous</button>
+                </form>
+            </div>
+            <span class="trylegend row">Prêt à essayer Ambrosis? Saisissez votre adresse e-mail pour créer votre compte ou y accéder.</span>
+        </div>
+
+        <footer>
+            <div class="footer row">
+                <p> Des questions ? Contactez le xx-xx-xx-xx-xx</p>
+                <div>
+                    <ul>
+                        <a href="faq" title="faq">Foire aux questions</a>
+                        <a href="help" title="help">Centre d'aides</a>
+                        <a href="mentionslegales" title="mentionslegales">Mentions légales</a>
+                        <a href="compte" title="compte">Compte</a>
+                        <a href="recrutement" title="recrutement">Recrutement</a>
+                        <a href="giftcard" title="cadeaux">Cartes cadeaux</a>
+                        <a href="cookies" title="preferencescookies">Préférences des cookies</a>
+                        <a href="contact" title="contact">Nous contacter</a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
